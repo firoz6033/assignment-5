@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+.container{
+    width: 1140px;
+    margin:0 auto;
+}
+body{
+    background-color: #f6f9f9;
+    font-family: 'Lato', sans-serif;
+}
+.logo{
+    margin: 35px 90px;
+}
+.banner{
+    width: 100%;
+    float: left;
+    background-image: url(../../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0px;
+}
+.banner-title {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 190px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.banner-title h2{color: white;
+    
+    font-size: 72px;
+    font-weight: bold;
+
+}
+.banner-title span{
+    border-bottom: 2px solid #15a4fa;
+    display: block;
+    width:78%;
+    margin:24px auto;
+    
+}
+.banner-title p{
+    color: white;
+    font-size:15px;
+    font-weight: 300;
+    margin-bottom: 60px;
+    
+}
+.banner-title button{
+    font-size: 20px;
+    background: transparent;
+    padding: 14px 20px;
+    color: white;
+    border: 1px solid #15a4fa;
+
+}
+
+.icon{
+
+    margin-top: 160px;
+    font-size: 18px;
+    color: white;
+}
+.about{
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#f6f9f9 ;
+}
+.about h2{
+    font-size: 32px;
+
+}
+.about p{
+    
+    padding-top:30px;
+    padding-bottom: 110px;
+    color: #999999
+}
+.font-awsome{
+    width:100%;
+    float: left;
+    padding-top:60px ;
+    background-color: white;
+    padding-bottom:60px;
+}
+.awsome-one{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.font-awsome p{
+   
+    
+    font-weight: 400;
+    color: #999999;
+    
+}
+
+.awsome-two{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+ .awsome-three{
+   width: 30%;
+ float: left;
+ text-align: center;
+
+}
+ .font{
+     background-color: #48baff;
+     height: 100px;
+     width:100px;
+     margin:0 auto;
+     color: white;
+     font-size:60px;
+ }
+ .font-awsome h4{
+     padding:25px;
+     font-size:20px;
+    }
+.portfolio{
+    width:100%;
+    float: left;
+    padding-bottom: 105px;
+}
+.portfolio-title{
+    width: 60%;
+    margin:0 auto;
+    margin-top:80px;
+    text-align: center;
+}
+.portfolio-title h1{padding-bottom: 20px;
+
+}
+.portfolio-title p{
+    padding-bottom: 75px;
+    color: #999999;
+}
+.portfolio-one{
+    width:32%;
+    padding:6px;
+    float: left;
+}
+.contact{
+    width: 100%;
+    float: left;
+    background-image:url(../../img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.form-title{
+    widows: 60%;
+    margin:0 auto;
+    text-align:center;
+    padding-top:70px;
+    color: white;
+    font-weight:300;
+
+}
+.contact h1{
+    padding-bottom: 28px;
+
+
+}
+.contact p{
+    padding-bottom:40px;
+  color:#999999;
+}
+.form-control{
+    width:60%;
+    margin:0 auto;
+    
+}
+.form-con{
+    background:transparent;
+    width:540px;
+    margin:10px;
+    padding:25px 0px;
+}
+
+.contact-button{
+    text-align: right;
+    padding: 20px 45px;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    font-size: 20px;
+    color: white;
+    margin-left: 397px;
+    margin-bottom: 63px;
+}
+.check{
+    
+    
+    font-size: 12px;
+    color: #909090;
+    
+}
+
+}
+footer{
+    width:100%;
+    float: left;
+}
+.copyright{
+    width:50%; float: left;
+    padding-top: 50px;
+}
+.social-icon{
+    width: 50%;
+    float: right;
+}
+
+.social-icon ul{list-style: none;
+  padding-left:45% ;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.social-icon ul li{display: inline-block;
+    margin: 5px;
+    font-size: 25px;
+    background-color: #15a4fa;
+    color:white;
+    padding:15px;
+}
